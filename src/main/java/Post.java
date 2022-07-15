@@ -5,4 +5,6 @@ public class Post {
     public String phone;
     public String passport;
     public boolean subscription;
+
+    FormDate birthday = new FormDate();
 }

@@ -7,10 +7,8 @@ public class Main {
         post.phone = "+7 (999)-999-99-99";
         post.passport = "4444 № 44444444";
         post.subscription = true;
-
-        FormDate formDate = new FormDate();
-        formDate.day = 13;
-        formDate.month = 6;
-        formDate.year = 1999;
+        post.birthday.day = 11;
+        post.birthday.month = 05;
+        post.birthday.year = 1999;
     }
 }
